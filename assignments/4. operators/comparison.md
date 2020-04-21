@@ -2,78 +2,78 @@
 
 Write the output (true / false) next to the comparision done below.
 ```js
-"hello world" === "hello world"; // Output
+"hello world" === "hello world"; // true
 
-"hello world" == "hello world";
+"hello world" == "hello world"; //true
 
-true === true;
+true === true; //true
 
-77 == "77";
+77 == "77"; //true
 
-77 === "77";
+77 === "77"; //false
 
-"cat" === "dog";
+"cat" === "dog"; //false
 
-false === 0;
+false === 0; //false
 
-false == 0;
+false == 0; //true
 
-0 == "";
+0 == ""; //true
 
-"" == false;
+"" == false; //true
 
-null == null;
+null == null; //true
 
-undefined == undefined;
+undefined == undefined; //true
 
-null == undefined;
+null == undefined; //true
 
-null == 0
+null == 0 //false
 
-null == 21
+null == 21 //false
 
-null == "null"
+null == "null" //false
+ 
+undefined == "undefined" //false
 
-undefined == "undefined"
+undefined == 0 //false
 
-undefined == 0
+undefined == false //false
 
-undefined == false
+undefined == "false" //false
 
-undefined == "false"
+NaN == null; //fa;se
 
-NaN == null;
+NaN == "NaN" //false
 
-NaN == "NaN"
+NaN == 0  //false
 
-NaN == 0
+NaN == false //false
 
-NaN == false
+NaN == undefined; //false
 
-NaN == undefined;
+NaN == NaN; //false
 
-NaN == NaN;
+2 > 1 //true
 
-2 > 1
+2 != 1 //true
 
-2 != 1
+'Z' > 'A' //true
 
-'Z' > 'A'
+"Hello World" > "Super Mario" //false
 
-"Hello World" > "Super Mario"
+"Hello World" != "Super Mario" //true
 
-"Hello World" != "Super Mario"
+NaN !== NaN //true
+ 
+NaN != NaN //true
 
-NaN !== NaN
+NaN != undefined //true
 
-NaN != NaN
+undefined != null //false
 
-NaN != undefined
+undefined != "Hello" //true
 
-undefined != null
-
-undefined != "Hello"
-
-undefined != "undefined"
+undefined != "undefined" //true
 
 ```
